@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['speech_server.py'],
+    ['python_client.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='speech_server',
+    name='python_client',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
